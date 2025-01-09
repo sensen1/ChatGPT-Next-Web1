@@ -409,9 +409,10 @@ const alibabaModes = [
   "qwen-turbo",
   "qwen-plus",
   "qwen-max",
-  "qwen-max-0428",
-  "qwen-max-0403",
-  "qwen-max-0107",
+  "qwen2.5-math-72b-instruct",
+  "qwen-math-plus",
+  "qvq-72b-preview",
+  "qwq-32b-preview",
   "qwen-max-longcontext",
 ];
 
