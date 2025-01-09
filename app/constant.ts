@@ -322,6 +322,17 @@ export const VISION_MODEL_REGEXES = [
 
 export const EXCLUDE_VISION_MODEL_REGEXES = [/claude-3-5-haiku-20241022/];
 
+const alibabaModes = [
+  "qwen-turbo",
+  "qwen-plus",
+  "qwen-max",
+  "qwen2.5-math-72b-instruct",
+  "qwen-math-plus",
+  "qvq-72b-preview",
+  "qwq-32b-preview",
+  "qwen-max-longcontext",
+];
+
 const openaiModels = [
   "gpt-3.5-turbo",
   "gpt-3.5-turbo-1106",
@@ -403,17 +414,6 @@ const bytedanceModels = [
   "Doubao-pro-4k",
   "Doubao-pro-32k",
   "Doubao-pro-128k",
-];
-
-const alibabaModes = [
-  "qwen-turbo",
-  "qwen-plus",
-  "qwen-max",
-  "qwen2.5-math-72b-instruct",
-  "qwen-math-plus",
-  "qvq-72b-preview",
-  "qwq-32b-preview",
-  "qwen-max-longcontext",
 ];
 
 const tencentModels = [
